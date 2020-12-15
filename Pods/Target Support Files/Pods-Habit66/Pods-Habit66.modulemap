@@ -1,0 +1,6 @@
+framework module Pods_Habit66 {
+  umbrella header "Pods-Habit66-umbrella.h"
+
+  export *
+  module * { export * }
+}
