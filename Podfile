@@ -12,5 +12,6 @@ pod 'Firebase/Database'
 pod 'lottie-ios'
 pod 'ChameleonFramework'
 pod 'FontAwesome.swift'
+pod "MBCircularProgressBar"
 
 end
