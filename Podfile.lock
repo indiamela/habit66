@@ -2,6 +2,9 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - Firebase (7.3.0):
     - Firebase/Core (= 7.3.0)
   - Firebase/Core (7.3.0):
@@ -39,6 +42,7 @@ PODS:
     - GoogleUtilities/UserDefaults (~> 7.0)
     - PromisesObjC (~> 1.2)
   - FontAwesome.swift (1.9.1)
+  - FSCalendar (2.8.2)
   - GoogleAppMeasurement (7.3.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
     - GoogleUtilities/MethodSwizzler (~> 7.0)
@@ -66,27 +70,42 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.1.1):
     - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.5.6)
   - leveldb-library (1.22)
   - lottie-ios (3.1.9)
+  - Material (3.1.8):
+    - Material/Core (= 3.1.8)
+  - Material/Core (3.1.8):
+    - Motion (~> 3.1.1)
   - MBCircularProgressBar (0.3.5)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
   - nanopb (2.30906.0):
     - nanopb/decode (= 2.30906.0)
     - nanopb/encode (= 2.30906.0)
   - nanopb/decode (2.30906.0)
   - nanopb/encode (2.30906.0)
-  - PromisesObjC (1.2.11)
+  - PromisesObjC (1.2.12)
+  - SwiftDate (6.3.1)
 
 DEPENDENCIES:
   - ChameleonFramework
+  - Charts
   - Firebase
   - Firebase/Database
   - FontAwesome.swift
+  - FSCalendar
+  - IQKeyboardManagerSwift
   - lottie-ios
+  - Material
   - MBCircularProgressBar
+  - SwiftDate
 
 SPEC REPOS:
   trunk:
     - ChameleonFramework
+    - Charts
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -94,17 +113,23 @@ SPEC REPOS:
     - FirebaseDatabase
     - FirebaseInstallations
     - FontAwesome.swift
+    - FSCalendar
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - IQKeyboardManagerSwift
     - leveldb-library
     - lottie-ios
+    - Material
     - MBCircularProgressBar
+    - Motion
     - nanopb
     - PromisesObjC
+    - SwiftDate
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Firebase: 26223c695fe322633274198cb19dca8cb7e54416
   FirebaseAnalytics: 2580c2d62535ae7b644143d48941fcc239ea897a
   FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
@@ -112,15 +137,20 @@ SPEC CHECKSUMS:
   FirebaseDatabase: 22199cb121a527ae59df646d61426fbb12f5627a
   FirebaseInstallations: 971df89b48ae5ee4cc2bf6935f3857a525d28550
   FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   GoogleAppMeasurement: 8d3c0aeede16ab7764144b5a4ca8e1d4323841b7
   GoogleDataTransport: 116c84c4bdeb76be2a7a46de51244368f9794eab
   GoogleUtilities: 3dc4ff0d5e4840e2fa8eef0889620e8c33d4218c
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
-  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
 
-PODFILE CHECKSUM: 6676fc4ca900b7f0aa73d909ddee84eb22c905d0
+PODFILE CHECKSUM: b34c6e240cf98b1ac6d97317e3ea566594eb6ffc
 
 COCOAPODS: 1.10.0

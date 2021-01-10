@@ -9,6 +9,11 @@ target 'Habit66' do
 
 pod 'Firebase'
 pod 'Firebase/Database'
+pod 'Charts'
+pod 'FSCalendar'
+pod 'SwiftDate'
+pod 'IQKeyboardManagerSwift'
+pod 'Material'
 pod 'lottie-ios'
 pod 'ChameleonFramework'
 pod 'FontAwesome.swift'
