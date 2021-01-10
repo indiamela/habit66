@@ -1,19 +1,14 @@
 //
-//  mainViewController.swift
+//  createViewController.swift
 //  Habit66
 //
 //  Created by 楠瀬大志 on 2021/01/10.
 //
 
 import UIKit
-import FSCalendar
 
-class mainViewController: UIViewController {
+class createViewController: UINavigationController {
 
-    @IBOutlet weak var continueDate: UITextField!
-    @IBOutlet weak var doneButton: UIButton!
-    @IBOutlet weak var Calender: FSCalendar!
-    @IBOutlet weak var createButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
