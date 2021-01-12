@@ -10,6 +10,16 @@
 		D3991799EBD894CDC9E3AFCA /* Pods_Habit66.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD8A7D976B85DF460616B47 /* Pods_Habit66.framework */; };
 		F25402A725AC12260086B8A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402A625AC12260086B8A6 /* ViewController.swift */; };
 		F25402AD25AC179D0086B8A6 /* createViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402AC25AC179D0086B8A6 /* createViewController.swift */; };
+		F25402B225AC54330086B8A6 /* outcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402B025AC54330086B8A6 /* outcomeViewController.swift */; };
+		F25402B325AC54330086B8A6 /* outcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402B125AC54330086B8A6 /* outcomeViewController.xib */; };
+		F25402B725AC54420086B8A6 /* obstacleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402B525AC54420086B8A6 /* obstacleViewController.swift */; };
+		F25402B825AC54420086B8A6 /* obstacleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402B625AC54420086B8A6 /* obstacleViewController.xib */; };
+		F25402BC25AC545A0086B8A6 /* planViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402BA25AC545A0086B8A6 /* planViewController.swift */; };
+		F25402BD25AC545A0086B8A6 /* planViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402BB25AC545A0086B8A6 /* planViewController.xib */; };
+		F25402C125AC55C20086B8A6 /* cheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402BF25AC55C20086B8A6 /* cheetViewController.swift */; };
+		F25402C225AC55C20086B8A6 /* cheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402C025AC55C20086B8A6 /* cheetViewController.xib */; };
+		F25402C625AC55F50086B8A6 /* doneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402C425AC55F50086B8A6 /* doneViewController.swift */; };
+		F25402C725AC55F50086B8A6 /* doneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402C525AC55F50086B8A6 /* doneViewController.xib */; };
 		F275920C25AADE6300FB82D3 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275920B25AADE6300FB82D3 /* mainViewController.swift */; };
 		F275921525AADFBD00FB82D3 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275921425AADFBD00FB82D3 /* detailViewController.swift */; };
 		F2E6EB662585E72600C4E326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6EB652585E72600C4E326 /* AppDelegate.swift */; };
@@ -25,6 +35,16 @@
 		DFB1A7CB250EF3329703CA0F /* Pods-Habit66.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit66.release.xcconfig"; path = "Target Support Files/Pods-Habit66/Pods-Habit66.release.xcconfig"; sourceTree = "<group>"; };
 		F25402A625AC12260086B8A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F25402AC25AC179D0086B8A6 /* createViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createViewController.swift; sourceTree = "<group>"; };
+		F25402B025AC54330086B8A6 /* outcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outcomeViewController.swift; sourceTree = "<group>"; };
+		F25402B125AC54330086B8A6 /* outcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = outcomeViewController.xib; sourceTree = "<group>"; };
+		F25402B525AC54420086B8A6 /* obstacleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obstacleViewController.swift; sourceTree = "<group>"; };
+		F25402B625AC54420086B8A6 /* obstacleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = obstacleViewController.xib; sourceTree = "<group>"; };
+		F25402BA25AC545A0086B8A6 /* planViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planViewController.swift; sourceTree = "<group>"; };
+		F25402BB25AC545A0086B8A6 /* planViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = planViewController.xib; sourceTree = "<group>"; };
+		F25402BF25AC55C20086B8A6 /* cheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheetViewController.swift; sourceTree = "<group>"; };
+		F25402C025AC55C20086B8A6 /* cheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cheetViewController.xib; sourceTree = "<group>"; };
+		F25402C425AC55F50086B8A6 /* doneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneViewController.swift; sourceTree = "<group>"; };
+		F25402C525AC55F50086B8A6 /* doneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = doneViewController.xib; sourceTree = "<group>"; };
 		F275920B25AADE6300FB82D3 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		F275921425AADFBD00FB82D3 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		F2E6EB622585E72600C4E326 /* Habit66.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit66.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +74,25 @@
 				CBD8A7D976B85DF460616B47 /* Pods_Habit66.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25402CD25AE571B0086B8A6 /* CreateNew */ = {
+			isa = PBXGroup;
+			children = (
+				F25402AC25AC179D0086B8A6 /* createViewController.swift */,
+				F25402B025AC54330086B8A6 /* outcomeViewController.swift */,
+				F25402B525AC54420086B8A6 /* obstacleViewController.swift */,
+				F25402BA25AC545A0086B8A6 /* planViewController.swift */,
+				F25402BF25AC55C20086B8A6 /* cheetViewController.swift */,
+				F25402BB25AC545A0086B8A6 /* planViewController.xib */,
+				F25402B625AC54420086B8A6 /* obstacleViewController.xib */,
+				F25402B125AC54330086B8A6 /* outcomeViewController.xib */,
+				F25402A625AC12260086B8A6 /* ViewController.swift */,
+				F25402C025AC55C20086B8A6 /* cheetViewController.xib */,
+				F25402C425AC55F50086B8A6 /* doneViewController.swift */,
+				F25402C525AC55F50086B8A6 /* doneViewController.xib */,
+			);
+			path = CreateNew;
 			sourceTree = "<group>";
 		};
 		F2E6EB592585E72600C4E326 = {
@@ -107,8 +146,7 @@
 		F2E6EB8F2585EB2000C4E326 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F25402AC25AC179D0086B8A6 /* createViewController.swift */,
-				F25402A625AC12260086B8A6 /* ViewController.swift */,
+				F25402CD25AE571B0086B8A6 /* CreateNew */,
 				F275920B25AADE6300FB82D3 /* mainViewController.swift */,
 				F275921425AADFBD00FB82D3 /* detailViewController.swift */,
 			);
@@ -183,9 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25402B825AC54420086B8A6 /* obstacleViewController.xib in Resources */,
 				F2E6EB722585E72A00C4E326 /* LaunchScreen.storyboard in Resources */,
+				F25402B325AC54330086B8A6 /* outcomeViewController.xib in Resources */,
 				F2E6EB6F2585E72A00C4E326 /* Assets.xcassets in Resources */,
+				F25402C725AC55F50086B8A6 /* doneViewController.xib in Resources */,
 				F2E6EB6D2585E72600C4E326 /* Main.storyboard in Resources */,
+				F25402C225AC55C20086B8A6 /* cheetViewController.xib in Resources */,
+				F25402BD25AC545A0086B8A6 /* planViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +283,12 @@
 			files = (
 				F275920C25AADE6300FB82D3 /* mainViewController.swift in Sources */,
 				F2E6EB662585E72600C4E326 /* AppDelegate.swift in Sources */,
+				F25402C125AC55C20086B8A6 /* cheetViewController.swift in Sources */,
 				F2E6EB682585E72600C4E326 /* SceneDelegate.swift in Sources */,
+				F25402C625AC55F50086B8A6 /* doneViewController.swift in Sources */,
+				F25402B725AC54420086B8A6 /* obstacleViewController.swift in Sources */,
+				F25402BC25AC545A0086B8A6 /* planViewController.swift in Sources */,
+				F25402B225AC54330086B8A6 /* outcomeViewController.swift in Sources */,
 				F25402A725AC12260086B8A6 /* ViewController.swift in Sources */,
 				F25402AD25AC179D0086B8A6 /* createViewController.swift in Sources */,
 				F275921525AADFBD00FB82D3 /* detailViewController.swift in Sources */,

@@ -1,58 +1,46 @@
 //
-//  createViewController.swift
+//  CommonViewController.swift
 //  Habit66
 //
-//  Created by 楠瀬大志 on 2021/01/10.
+//  Created by 楠瀬大志 on 2021/01/13.
 //
 
 import UIKit
 
-class createViewController: UIViewController,UITextFieldDelegate {
-
-    @IBOutlet weak var nextButton: UIButton!
-    @IBOutlet weak var doneButton: UIButton!
-    @IBOutlet weak var wishText: UITextField!
-    var wish: String = ""
+class CommonViewController: UIViewController,UITextFieldDelegate {
     
-    //配列
+    @IBOutlet weak var wishText: UITextField!
+    @IBOutlet weak var outputText: UILabel!
+    
+    var wish = ""
+    var createNew = [String]()
+    
     override func viewDidLoad() {
-
+        super.viewDidLoad()
+        
         //nextButton
         //グレー表示
-        super.viewDidLoad()
         wishText.delegate = self
-
-        // Do any additional setup after loading the view.
     }
     
     //キーボードを隠す
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        wish = wishText.text ?? ""
+        // キーボードを閉じる
+        wishText.resignFirstResponder()
+        let input = wishText.text ?? ""
+        outputText.text = input
         return true
     }
     
     //テキストを一文字以上入力したら次へボタンが表示される
     
+    
     //次へ
-    //配列に保存
-    
-    //完了ボタン
-    //配列の中身全てをDBに入れる
-    //FireBaseに送信
-    
-    
-    //wish
-    
-    //Outcome
-    
-    //Obstacle
-    
-    //Plan
+    @IBAction func nextButton(_ sender: Any) {
+        createNew.append(wishText.text ?? "")
+        performSegue(withIdentifier: "toNext", sender: nil)
+        
+    }
 
     /*
     // MARK: - Navigation
