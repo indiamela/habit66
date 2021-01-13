@@ -18,10 +18,12 @@ class outcomeViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tblBackColor: UIColor = UIColor.clear
+        outcomeTableView.backgroundColor = tblBackColor
+
         outcomeTableView.delegate = self
         outcomeText.delegate = self
         print(createNew)
-
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

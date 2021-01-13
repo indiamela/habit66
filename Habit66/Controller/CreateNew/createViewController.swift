@@ -10,7 +10,6 @@ import UIKit
 class createViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet weak var wishText: UITextField!
-    
     var createNew = [String]()
     
     //配列
