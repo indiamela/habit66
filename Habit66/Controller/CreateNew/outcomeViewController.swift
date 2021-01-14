@@ -10,6 +10,7 @@ import UIKit
 class outcomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource, UITextFieldDelegate {
 
     @IBOutlet weak var outcomeTableView: UITableView!
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var outcomeText: UITextField!
     
     var outcomes = [String]()
@@ -18,9 +19,11 @@ class outcomeViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nextButton.isHidden = true
+        
         let tblBackColor: UIColor = UIColor.clear
         outcomeTableView.backgroundColor = tblBackColor
-
+        
         outcomeTableView.delegate = self
         outcomeText.delegate = self
         print(createNew)
@@ -39,6 +42,18 @@ class outcomeViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBAction func outcometext(_ sender: Any) {
         
     }
+    //cellの削除
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCell.EditingStyle.delete{
+            outcomes.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
+        }
+    }
+
     
 
     
@@ -56,21 +71,18 @@ class outcomeViewController: UIViewController,UITableViewDelegate,UITableViewDat
         outcomes.append(newtext!)
         outcomeTableView.reloadData()
         outcomeText.text = ""
+        nextButton.isHidden = false
+
         return true
     }
     
-    //cellの削除
-    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        return true
-    }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == UITableViewCell.EditingStyle.delete{
-            outcomes.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
-        }
+    @IBAction func nextButton(_ sender: Any) {
+        createNew.append(contentsOf: outcomes)
+        let nextVC = storyboard?.instantiateViewController(identifier: "obstacle") as! obstacleViewController
+        nextVC.createNew = createNew
+        navigationController?.pushViewController(nextVC, animated: true)
     }
-    
     
 
 

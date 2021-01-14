@@ -34,7 +34,7 @@ class createViewController: UIViewController,UITextFieldDelegate {
     //次へ
     @IBAction func nextButton(_ sender: Any) {
         createNew.append(wishText.text ?? "")
-        let nextVC = storyboard?.instantiateViewController(withIdentifier:"next") as! outcomeViewController
+        let nextVC = storyboard?.instantiateViewController(withIdentifier:"outcome") as! outcomeViewController
         nextVC.createNew = createNew
         navigationController?.pushViewController(nextVC,animated: true)
         createNew = []
