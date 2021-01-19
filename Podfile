@@ -9,6 +9,8 @@ target 'Habit66' do
 
 pod 'Firebase'
 pod 'Firebase/Database'
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
 pod 'Charts'
 pod 'FSCalendar'
 pod 'SwiftDate'

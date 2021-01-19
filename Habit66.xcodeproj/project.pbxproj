@@ -20,6 +20,11 @@
 		F25402C225AC55C20086B8A6 /* cheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402C025AC55C20086B8A6 /* cheetViewController.xib */; };
 		F25402C625AC55F50086B8A6 /* doneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25402C425AC55F50086B8A6 /* doneViewController.swift */; };
 		F25402C725AC55F50086B8A6 /* doneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25402C525AC55F50086B8A6 /* doneViewController.xib */; };
+		F259108925B2BD620056CBCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259108825B2BD620056CBCF /* User.swift */; };
+		F259109225B2D1CF0056CBCF /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259109125B2D1CF0056CBCF /* UsersListViewController.swift */; };
+		F259109525B2D2750056CBCF /* UserEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259109425B2D2750056CBCF /* UserEditViewController.swift */; };
+		F25910A625B3E8230056CBCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F25910A525B3E8230056CBCF /* GoogleService-Info.plist */; };
+		F25910AC25B4ED740056CBCF /* Woop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25910AB25B4ED740056CBCF /* Woop.swift */; };
 		F275920C25AADE6300FB82D3 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275920B25AADE6300FB82D3 /* mainViewController.swift */; };
 		F275921525AADFBD00FB82D3 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F275921425AADFBD00FB82D3 /* detailViewController.swift */; };
 		F281037925B1019C0099F406 /* baseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281037825B1019C0099F406 /* baseViewController.swift */; };
@@ -46,6 +51,11 @@
 		F25402C025AC55C20086B8A6 /* cheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cheetViewController.xib; sourceTree = "<group>"; };
 		F25402C425AC55F50086B8A6 /* doneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneViewController.swift; sourceTree = "<group>"; };
 		F25402C525AC55F50086B8A6 /* doneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = doneViewController.xib; sourceTree = "<group>"; };
+		F259108825B2BD620056CBCF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F259109125B2D1CF0056CBCF /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		F259109425B2D2750056CBCF /* UserEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEditViewController.swift; sourceTree = "<group>"; };
+		F25910A525B3E8230056CBCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F25910AB25B4ED740056CBCF /* Woop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woop.swift; sourceTree = "<group>"; };
 		F275920B25AADE6300FB82D3 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		F275921425AADFBD00FB82D3 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		F281037825B1019C0099F406 /* baseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +132,7 @@
 				F2E6EB8E2585EB1700C4E326 /* View */,
 				F2E6EB8F2585EB2000C4E326 /* Controller */,
 				F2E6EB702585E72A00C4E326 /* LaunchScreen.storyboard */,
+				F25910A525B3E8230056CBCF /* GoogleService-Info.plist */,
 				F2E6EB732585E72A00C4E326 /* Info.plist */,
 			);
 			path = Habit66;
@@ -132,6 +143,8 @@
 			children = (
 				F2E6EB652585E72600C4E326 /* AppDelegate.swift */,
 				F2E6EB672585E72600C4E326 /* SceneDelegate.swift */,
+				F259108825B2BD620056CBCF /* User.swift */,
+				F25910AB25B4ED740056CBCF /* Woop.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +165,8 @@
 				F25402CD25AE571B0086B8A6 /* CreateNew */,
 				F275920B25AADE6300FB82D3 /* mainViewController.swift */,
 				F275921425AADFBD00FB82D3 /* detailViewController.swift */,
+				F259109125B2D1CF0056CBCF /* UsersListViewController.swift */,
+				F259109425B2D2750056CBCF /* UserEditViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,6 +241,7 @@
 			files = (
 				F25402B825AC54420086B8A6 /* obstacleViewController.xib in Resources */,
 				F2E6EB722585E72A00C4E326 /* LaunchScreen.storyboard in Resources */,
+				F25910A625B3E8230056CBCF /* GoogleService-Info.plist in Resources */,
 				F25402B325AC54330086B8A6 /* outcomeViewController.xib in Resources */,
 				F2E6EB6F2585E72A00C4E326 /* Assets.xcassets in Resources */,
 				F25402C725AC55F50086B8A6 /* doneViewController.xib in Resources */,
@@ -284,15 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F259109525B2D2750056CBCF /* UserEditViewController.swift in Sources */,
 				F275920C25AADE6300FB82D3 /* mainViewController.swift in Sources */,
 				F281037925B1019C0099F406 /* baseViewController.swift in Sources */,
 				F2E6EB662585E72600C4E326 /* AppDelegate.swift in Sources */,
+				F259109225B2D1CF0056CBCF /* UsersListViewController.swift in Sources */,
 				F25402C125AC55C20086B8A6 /* cheetViewController.swift in Sources */,
 				F2E6EB682585E72600C4E326 /* SceneDelegate.swift in Sources */,
 				F25402C625AC55F50086B8A6 /* doneViewController.swift in Sources */,
 				F25402B725AC54420086B8A6 /* obstacleViewController.swift in Sources */,
 				F25402BC25AC545A0086B8A6 /* planViewController.swift in Sources */,
+				F25910AC25B4ED740056CBCF /* Woop.swift in Sources */,
 				F25402B225AC54330086B8A6 /* outcomeViewController.swift in Sources */,
+				F259108925B2BD620056CBCF /* User.swift in Sources */,
 				F25402A725AC12260086B8A6 /* ViewController.swift in Sources */,
 				F25402AD25AC179D0086B8A6 /* createViewController.swift in Sources */,
 				F275921525AADFBD00FB82D3 /* detailViewController.swift in Sources */,

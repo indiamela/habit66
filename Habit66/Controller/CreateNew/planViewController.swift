@@ -78,7 +78,7 @@ class planViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBAction func nextButton(_ sender: Any) {
         createNew.append(contentsOf: planes)
         let nextVC = storyboard?.instantiateViewController(identifier: "cheet") as! cheetViewController
-        nextVC.createNew = createNew
+//        nextVC.createNew = createNew
         navigationController?.pushViewController(nextVC, animated: true)
     }
 
